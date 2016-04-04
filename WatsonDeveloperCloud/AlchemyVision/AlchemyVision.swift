@@ -18,7 +18,7 @@ import Foundation
 import ObjectMapper
 
 /// AlchemyVision employs deep learning innovations to understand a picture's content and context
-public class AlchemyVision: AlchemyService {
+public class AlchemyVision: NSObject, AlchemyService {
     
     // The authentication strategy to obtain authorization tokens.
     let authStrategy: AuthenticationStrategy

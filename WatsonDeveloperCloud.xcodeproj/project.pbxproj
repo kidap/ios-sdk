@@ -124,16 +124,6 @@
 		7A0F97261C232BC6004C01C0 /* MobyDickIntro.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7A0F96371C232B96004C01C0 /* MobyDickIntro.txt */; };
 		7A0F97271C232BC6004C01C0 /* PersonalityInsightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F96381C232B96004C01C0 /* PersonalityInsightsTests.swift */; };
 		7A0F972F1C232BD7004C01C0 /* TextToSpeechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0F96601C232B96004C01C0 /* TextToSpeechTests.swift */; };
-		7A0F97371C232D02004C01C0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F97311C232D02004C01C0 /* Alamofire.framework */; };
-		7A0F97381C232D02004C01C0 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F97321C232D02004C01C0 /* AlamofireObjectMapper.framework */; };
-		7A0F97391C232D02004C01C0 /* HTTPStatusCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F97331C232D02004C01C0 /* HTTPStatusCodes.framework */; };
-		7A0F973A1C232D02004C01C0 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F97341C232D02004C01C0 /* ObjectMapper.framework */; };
-		7A0F973B1C232D02004C01C0 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0F97351C232D02004C01C0 /* Starscream.framework */; };
-		7A0F973E1C232F14004C01C0 /* Alamofire.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A0F97311C232D02004C01C0 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7A0F973F1C232F14004C01C0 /* AlamofireObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A0F97321C232D02004C01C0 /* AlamofireObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7A0F97401C232F14004C01C0 /* HTTPStatusCodes.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A0F97331C232D02004C01C0 /* HTTPStatusCodes.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7A0F97411C232F14004C01C0 /* ObjectMapper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A0F97341C232D02004C01C0 /* ObjectMapper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7A0F97421C232F14004C01C0 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7A0F97351C232D02004C01C0 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7A19DC931C597B260082ED38 /* SpeechToTextConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19DC921C597B260082ED38 /* SpeechToTextConstants.swift */; };
 		7A19DC971C5980780082ED38 /* SpeechToTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A19DC951C5980720082ED38 /* SpeechToTextTests.swift */; };
 		7A19DC9C1C5983390082ED38 /* SpeechSample.flac in Resources */ = {isa = PBXBuildFile; fileRef = 7A19DC991C5983390082ED38 /* SpeechSample.flac */; };
@@ -158,6 +148,12 @@
 		7ADA48191C5AC0A8001DD473 /* SpeechToTextStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADA48181C5AC0A8001DD473 /* SpeechToTextStop.swift */; };
 		7AEAAFA91C57C85500A8D202 /* SpeechToText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEAAFA81C57C85500A8D202 /* SpeechToText.swift */; };
 		7AEAAFAC1C57E57800A8D202 /* SpeechToTextResultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEAAFAB1C57E57800A8D202 /* SpeechToTextResultWrapper.swift */; };
+		A7A3F0431CB2C5A200FBC740 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A3F03D1CB2C5A200FBC740 /* Alamofire.framework */; };
+		A7A3F0441CB2C5A300FBC740 /* AlamofireObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A3F03E1CB2C5A200FBC740 /* AlamofireObjectMapper.framework */; };
+		A7A3F0451CB2C5A300FBC740 /* HTTPStatusCodes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A3F03F1CB2C5A200FBC740 /* HTTPStatusCodes.framework */; };
+		A7A3F0461CB2C5A300FBC740 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A3F0401CB2C5A200FBC740 /* ObjectMapper.framework */; };
+		A7A3F0471CB2C5A300FBC740 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A3F0411CB2C5A200FBC740 /* Starscream.framework */; };
+		A7A3F0481CB2C5A300FBC740 /* WatsonDeveloperCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A3F0421CB2C5A200FBC740 /* WatsonDeveloperCloud.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -177,11 +173,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7A0F973E1C232F14004C01C0 /* Alamofire.framework in CopyFiles */,
-				7A0F973F1C232F14004C01C0 /* AlamofireObjectMapper.framework in CopyFiles */,
-				7A0F97401C232F14004C01C0 /* HTTPStatusCodes.framework in CopyFiles */,
-				7A0F97411C232F14004C01C0 /* ObjectMapper.framework in CopyFiles */,
-				7A0F97421C232F14004C01C0 /* Starscream.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,11 +299,6 @@
 		7A0F967F1C232B96004C01C0 /* WatsonGateway.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonGateway.swift; sourceTree = "<group>"; };
 		7A0F96801C232B96004C01C0 /* WatsonRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonRequest.swift; sourceTree = "<group>"; };
 		7A0F96811C232B96004C01C0 /* WatsonService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonService.swift; sourceTree = "<group>"; };
-		7A0F97311C232D02004C01C0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
-		7A0F97321C232D02004C01C0 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireObjectMapper.framework; path = Carthage/Build/iOS/AlamofireObjectMapper.framework; sourceTree = "<group>"; };
-		7A0F97331C232D02004C01C0 /* HTTPStatusCodes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HTTPStatusCodes.framework; path = Carthage/Build/iOS/HTTPStatusCodes.framework; sourceTree = "<group>"; };
-		7A0F97341C232D02004C01C0 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
-		7A0F97351C232D02004C01C0 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/iOS/Starscream.framework; sourceTree = "<group>"; };
 		7A19DC921C597B260082ED38 /* SpeechToTextConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechToTextConstants.swift; path = WatsonDeveloperCloud/SpeechToText/SpeechToTextConstants.swift; sourceTree = "<group>"; };
 		7A19DC951C5980720082ED38 /* SpeechToTextTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechToTextTests.swift; path = WatsonDeveloperCloud/SpeechToText/Tests/SpeechToTextTests.swift; sourceTree = "<group>"; };
 		7A19DC991C5983390082ED38 /* SpeechSample.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpeechSample.flac; sourceTree = "<group>"; };
@@ -337,6 +323,12 @@
 		7ADA48181C5AC0A8001DD473 /* SpeechToTextStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechToTextStop.swift; path = WatsonDeveloperCloud/SpeechToText/Models/SpeechToTextStop.swift; sourceTree = "<group>"; };
 		7AEAAFA81C57C85500A8D202 /* SpeechToText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechToText.swift; path = WatsonDeveloperCloud/SpeechToText/SpeechToText.swift; sourceTree = "<group>"; };
 		7AEAAFAB1C57E57800A8D202 /* SpeechToTextResultWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpeechToTextResultWrapper.swift; path = WatsonDeveloperCloud/SpeechToText/Models/SpeechToTextResultWrapper.swift; sourceTree = "<group>"; };
+		A7A3F03D1CB2C5A200FBC740 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		A7A3F03E1CB2C5A200FBC740 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlamofireObjectMapper.framework; sourceTree = "<group>"; };
+		A7A3F03F1CB2C5A200FBC740 /* HTTPStatusCodes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HTTPStatusCodes.framework; sourceTree = "<group>"; };
+		A7A3F0401CB2C5A200FBC740 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = "<group>"; };
+		A7A3F0411CB2C5A200FBC740 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Starscream.framework; sourceTree = "<group>"; };
+		A7A3F0421CB2C5A200FBC740 /* WatsonDeveloperCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WatsonDeveloperCloud.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,11 +336,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A0F973A1C232D02004C01C0 /* ObjectMapper.framework in Frameworks */,
-				7A0F973B1C232D02004C01C0 /* Starscream.framework in Frameworks */,
-				7A0F97371C232D02004C01C0 /* Alamofire.framework in Frameworks */,
-				7A0F97391C232D02004C01C0 /* HTTPStatusCodes.framework in Frameworks */,
-				7A0F97381C232D02004C01C0 /* AlamofireObjectMapper.framework in Frameworks */,
+				A7A3F0431CB2C5A200FBC740 /* Alamofire.framework in Frameworks */,
+				A7A3F0441CB2C5A300FBC740 /* AlamofireObjectMapper.framework in Frameworks */,
+				A7A3F0461CB2C5A300FBC740 /* ObjectMapper.framework in Frameworks */,
+				A7A3F0471CB2C5A300FBC740 /* Starscream.framework in Frameworks */,
+				A7A3F0451CB2C5A300FBC740 /* HTTPStatusCodes.framework in Frameworks */,
+				A7A3F0481CB2C5A300FBC740 /* WatsonDeveloperCloud.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,11 +730,12 @@
 		7A0F97301C232CB5004C01C0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A0F97311C232D02004C01C0 /* Alamofire.framework */,
-				7A0F97321C232D02004C01C0 /* AlamofireObjectMapper.framework */,
-				7A0F97331C232D02004C01C0 /* HTTPStatusCodes.framework */,
-				7A0F97341C232D02004C01C0 /* ObjectMapper.framework */,
-				7A0F97351C232D02004C01C0 /* Starscream.framework */,
+				A7A3F03D1CB2C5A200FBC740 /* Alamofire.framework */,
+				A7A3F03E1CB2C5A200FBC740 /* AlamofireObjectMapper.framework */,
+				A7A3F03F1CB2C5A200FBC740 /* HTTPStatusCodes.framework */,
+				A7A3F0401CB2C5A200FBC740 /* ObjectMapper.framework */,
+				A7A3F0411CB2C5A200FBC740 /* Starscream.framework */,
+				A7A3F0421CB2C5A200FBC740 /* WatsonDeveloperCloud.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1173,6 +1167,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WatsonDeveloperCloud/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -1200,6 +1195,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WatsonDeveloperCloud/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
